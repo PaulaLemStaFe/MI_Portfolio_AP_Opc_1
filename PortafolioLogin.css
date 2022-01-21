@@ -1,0 +1,174 @@
+/* Imports */
+ 
+@import url(PortafolioLogin.css);
+ 
+/* Selections */
+ 
+::selection {
+    color: #fff;
+    text-shadow: none;
+    background: #444;
+}
+ 
+::-moz-selection {
+    color: #fff;
+    text-shadow: none;
+    background: #444;
+}
+ 
+/* Basics */
+ 
+html, body {
+    width: 60%;
+    height: 60%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: silver;
+ 
+}
+ 
+#container {
+    position: fixed;
+    width: 340px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -170px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0f0f0f), to(#616060));
+    background-image: -moz-linear-gradient(top left 90deg, #0f0f0f 0%, #616060 100%);
+    background-image: linear-gradient(top left 90deg, #0f0f0f 0%, #616060 100%);
+    border-radius: 3px;
+    border: 3px inset #616060;
+    box-shadow: 10px 18px 20px -10px #7c7b7b;
+    -webkit-animation-name: bounceIn;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: bounceIn;
+    -moz-animation-fill-mode: both;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+    animation-name: bounceIn;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+ 
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+ 
+label {
+    color: #dbdbd9;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+ 
+p a {
+    font-size: 11px;
+    color: #dbdbd9;
+    float: right;
+    margin-top: -13px;
+    margin-right: 20px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+}
+ 
+p a:hover {
+    color: #dbdbd9;
+}
+ 
+input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    outline: none;
+}
+ 
+input[type=mail],
+input[type=password] {
+    color: #0f0f0f;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 35px;
+    border: 2px solid #0f0f0f;
+    border-radius: 2px;
+    box-shadow: inset 0 1.5px 3px #616060, 0 0 0 5px #f5f7f8;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+}
+ 
+input[type=mail]:hover,
+input[type=password]:hover {
+    border: 2px solid #0f0f0f;
+    box-shadow: inset 0 1.5px 3px #616060, 0 0 0 5px #f5f7f8;
+}
+ 
+input[type=mail]:focus,
+input[type=password]:focus {
+    border: 2px solid #0f0f0f;
+    box-shadow: inset 0 1.5px 3px #616060, 0 0 0 5px #e6f2f9;
+}
+ 
+#lower {
+    background: #616060;
+    width: 100%;
+    height: 69px;
+    margin-top: 20px;
+    box-shadow: inset 0 2px 2px #0f0f0f;
+    border-top: 2px solid #616060;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+ 
+input[type=checkbox] {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+ 
+.check {
+    margin-left: 3px;
+    font-size: 14px;
+    color: #dbdbd9;
+    text-shadow: 0 1px 0 #525151;
+}
+ 
+input[type=submit] {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #dbdbd9;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#616060), to(#0f0f0f));
+    background-image: -moz-linear-gradient(top left 90deg, #616060 0%, #0f0f0f 100%);
+    background-image: linear-gradient(top left 90deg, #616060 0%, #0f0f0f 100%);
+    border-radius: 30px;
+    border: 2px solid #0f0f0f;
+    box-shadow: 0 1px 2px #7c7b7b, inset 0 1px 0 #ececec;
+    cursor: pointer;
+}
+ 
+input[type=submit]:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#616060), to(#0f0f0f));
+    background-image: -moz-linear-gradient(top left 90deg, #616060 0%, #0f0f0f 100%);
+    background-image: linear-gradient(top left 90deg, #616060 0%, #0f0f0f 100%);
+}
+ 
+input[type=submit]:active {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#616060), to(#0f0f0f));
+    background-image: -moz-linear-gradient(top left 90deg, #616060 0%, #0f0f0f 100%);
+    background-image: linear-gradient(top left 90deg, #616060 0%, #0f0f0f 100%);
+}
